@@ -22,9 +22,7 @@
 
   color: #fcf9f9;
   accent-color: #ecd979;
-
   background-color: #1c2225;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -40,8 +38,23 @@ p {
   margin-top: 0;
   margin-bottom: 0;
 }
+
 a {
   text-decoration: none;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .container {
