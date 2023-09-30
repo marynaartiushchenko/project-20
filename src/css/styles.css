@@ -13,17 +13,55 @@
 @import url('./your-order.css');
 
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Manrope, sans-serif;
   font-size: 16px;
-  line-height: 24px;
+  font-style: normal;
   font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.64px;
 
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
-
+  color: #fcf9f9;
+  accent-color: #ecd979;
+  background-color: #1c2225;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 100px;
+  padding-right: 100px;
 }
