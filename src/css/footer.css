@@ -1,22 +1,130 @@
-.footer-section {
+
+/*  0 - 375px */
+    
+ .footer-section {
     border-top: 1px solid rgba(252, 249, 249, 0.10);
     background: #1C2225;
+    position: relative;
+    z-index: 999999;
+    bottom: 0;
+    left: 0;
+     }
+
+ .footer-aria {
+    min-width: 320px;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 292px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+
+.footer-fone {
+    background-image: url(../img/footer/mob.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: -39px;
+    left: -38px;
+    bottom: -189px;
+    top: 437px;
+    width: 452px;
+    height: 401px;
+    background-position-x: center;
+    background-size: auto auto;
+    margin-bottom: 0;
+    background-origin: border-box;
+}
+    
+.footer-list {
+    display: inline-flex;
+    column-gap: 40px;
+    row-gap: 25px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+.footer-list-item {
+    color: var(--white, #FCF9F9);
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.28; 
+    text-transform: uppercase;
+    }
+
+.embroidery-culture {
+    display: block;
+    color: var(--white, #FCF9F9);
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 1.22;
+    letter-spacing:  -0.03em;
+    width: 100%;
+    text-align: start;
+   
+   
+}
+
+.yellow-word {
+    color: var(--white, #ECD979);
+}
+
+
+
+.footer-list-item:hover,
+.footer-list-item:focus {
+    color:  var(--yellow, #ECD979);
+} 
+
+
+
+/* 376px - 768px */
+@media screen  and (min-width: 376px) and (max-width: 768px) {
+    .footer-aria {
+     max-width: 767px; 
+     padding-left: 32px;
+     padding-bottom: 40px;
+    }
+}
+
+
+
+
+
+/* 768px - 1280px - ... */
+
+@media screen and (min-width: 768px) {
+    
+.footer-aria {
+    max-width: 1280px; 
     padding-top: 40px;
     padding-left: 100px;
     padding-bottom: 40px;
-    background-image: url(../img/footer/dt8.png);
-    background-position-x: right;
-    background-position-y: top;
-    background-size: auto;
-    background-repeat: no-repeat;
- 
-}
-
-.footer-aria {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
+}
+
+.footer-fone {
+    background-image: url(../img/footer/dt8.png);
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 944px;
+ }
+
+ .embroidery-culture {
+    font-size: 64px;
+    line-height: 1.15;
+    width: 754px;
+    height: 148px;
 }
 
 .footer-list {
@@ -28,30 +136,4 @@
     margin-bottom: 175px;
 }
 
-
-.embroidery-culture {
-    display: block;
-    color: var(--white, #FCF9F9);
-    font-family: Manrope;
-    font-size: 64px;
-    font-weight: 400;
-    line-height: 1.16;
-    letter-spacing: -0.03em;
-    width: 754px;
-    height: 148px;
-   
-}
-
-.yellow-word {
-    color: var(--white, #ECD979);
-}
-
-.footer-list-item {
-color: var(--white, #FCF9F9);
-font-family: Manrope;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 1.28; 
-text-transform: uppercase;
 }
