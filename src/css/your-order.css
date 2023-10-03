@@ -1,0 +1,210 @@
+.your-order {
+    min-height: 1266px;
+    position: relative;
+    background-image: url("../img/your_order/green_vyshyvanka_mobile.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 375px 550px;
+    display: flex;
+    
+    
+}
+.your-order-form-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.your-order-title {
+    width: 335px;
+    color: #FCF9F9;
+    font-family: Manrope;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.375;
+    letter-spacing: -0.03em;
+    margin-bottom: 40px;
+}
+
+.your-order-span {
+    color: #ECD979;
+}
+
+.your-order-input {
+    width: 100%;
+    padding: 14px 16px;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+    color: rgba(252, 249, 249, 0.50);
+    background-color: transparent;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+}
+
+.your-order-textarea {
+    width: 100%;
+    height: 196px;
+    padding: 14px 16px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+    color: rgba(252, 249, 249, 0.50);
+    background-color: transparent;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.02em;
+    resize: none;
+
+}
+
+.your-order-button {
+    display: flex;
+    height: 49px;
+    padding: 14px 36px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+    background-color: transparent;
+    color: #FCF9F9;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.04px;
+    text-transform: uppercase;
+
+}
+.your-order-icons {
+    fill: #ECD979;
+}
+
+@media screen and (max-width: 767px) {
+    
+    .your-order-img-wrapper {
+        display: none;
+    }
+
+    .your-order-button {
+        margin: 0 auto;
+    }
+}
+@media screen and (min-resolution: 192dpi) and (max-width: 767px),
+screen and (min-resolution: 2dppx) and (max-width: 767px),
+screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+    .your-order {
+        background-image: url("../img/your_order/green_vyshyvanka_mobile@2x.jpg");
+    }
+}
+@media screen and (min-width: 768px) {
+    .your-order {
+        min-height: 2216px;
+        background-image: url("../img/your_order/green_vyshyvanka_tablet.jpg"), url("../img/your-order-ornament.png");
+        background-repeat: no-repeat;
+        background-position: top, left bottom;
+        background-size: 768px 776px, 545px 484px;
+        margin-left: 0;
+        
+    }
+    .your-order-form-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .your-order-title {
+        width: 542px;
+        font-size: 44px;
+        line-height: 1.32;
+
+    }
+
+    .your-order-input {
+        width: 508px;
+        font-size: 16px;
+    }
+
+    .your-order-textarea {
+        width: 508px;
+        font-size: 16px;
+    }
+
+}
+@media screen and (min-resolution: 192dpi) and (min-width: 768px),
+screen and (min-resolution: 2dppx) and (min-width: 768px),
+screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+    .your-order {
+        background-image: url("../img/your_order/green_vyshyvanka_tablet@2x.jpg"), url("../img/your-order-ornament@2x.png");
+    }
+}
+
+@media screen and (max-width: 1279px)
+{
+    
+    .your-order-img-wrapper {
+        position: absolute;
+        right: 0px;
+        bottom: 80px;
+       
+    }
+    
+
+}
+ 
+@media screen and (min-width: 1280px) {
+    .your-order {
+        min-height: 1566px;
+        width: 1436px;
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+        background-image: url("../img/your_order/green_vyshyvanka_desktop.jpg"), url("../img/your-order-ornament.png");
+        background-repeat: no-repeat;
+        background-position: top, left bottom;
+        background-size: 1282px 776px, 545px 484px;
+        
+    }
+    .your-order-form-wrapper {
+        width: 542px;
+        justify-content: flex-end;
+    }
+    .your-order-img-wrapper {
+        margin-bottom: 200px;
+        margin-top: auto;
+    }
+}
+@media screen and (min-resolution: 192dpi) and (min-width: 1280px),
+screen and (min-resolution: 2dppx) and (min-width: 1280px),
+screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
+    .your-order {
+        background-image: url("../img/your_order/green_vyshyvanka_desktop@2x.jpg"), url("../img/your-order-ornament@2x.png");
+    }
+}
+@media screen and (min-width: 1440px){
+    .your-order {
+        background-image: url("../img/your_order/green_vyshyvanka_desktop2.jpg"), url("../img/your-order-ornament.png");
+        background-repeat: no-repeat;
+        background-position: top, left bottom;
+        background-size: 1440px 776px, 545px 484px;
+    }
+    .your-order-title {
+        width: 666px;
+    }
+}
+@media screen and (min-resolution: 192dpi) and (min-width: 1440px),
+screen and (min-resolution: 2dppx) and (min-width: 1440px),
+screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
+    .your-order {
+        background-image: url("../img/your_order/green_vyshyvanka_desktop2@2x.jpg"), url("../img/your-order-ornament@2x.png");
+    }
+}
