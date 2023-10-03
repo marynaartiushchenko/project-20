@@ -59,6 +59,7 @@
     }
 }
 
+
 @media screen and (min-width: 768px) {
     .hero {
         display: flex;
@@ -145,6 +146,7 @@
         letter-spacing: 0.03em;
     }
 }
+
 
 @media screen and (min-width: 1280px) {
     .container {
