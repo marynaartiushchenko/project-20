@@ -1,11 +1,11 @@
 {
-  "name": "project-20",
+  "name": "project-SmartTeam20",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/project-20/",
+    "build": "vite build --base=/project-SmartTeam20/",
     "preview": "vite preview"
   },
   "devDependencies": {
