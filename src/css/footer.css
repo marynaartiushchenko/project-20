@@ -37,7 +37,17 @@
     margin-bottom: 0;
     background-origin: border-box;
 }
-    
+ 
+@media screen and (min-resolution: 192dpi) and (max-width: 767px),
+screen and (min-resolution: 2dppx) and (max-width: 767px),
+screen and (min-device-pixel-ratio: 2) and (max-width:767px){
+    .footer-fone {
+    background-image: url(../img/footer/mob@2x.png);
+    }   
+}
+
+
+
 .footer-list {
     display: inline-flex;
     column-gap: 40px;
@@ -46,6 +56,8 @@
     flex-wrap: wrap;
     align-items: flex-start;
     margin-bottom: 40px;
+    justify-content: space-between;
+    width: 282px;
 }
 
 .footer-list-item {
@@ -84,27 +96,29 @@
 
 
 
-/* 376px - 768px */
-@media screen  and (min-width: 376px) and (max-width: 768px) {
-    .footer-aria {
-     max-width: 767px; 
-     padding-left: 32px;
-     padding-bottom: 40px;
-    }
+/* 768px - 1280px - ... */
+
+@media screen and (min-width: 768px)   {
+    .footer-fone {
+        background-image: url(../img/footer/tab.png);
+        }   
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 768px),
+screen and (min-resolution: 2dppx) and (min-width: 768px),
+screen and (min-device-pixel-ratio: 2) and (min-width:768px){
+    .footer-fone {
+    background-image: url(../img/footer/tab@2x.png);
+    }   
 }
 
 
-
-
-
-/* 768px - 1280px - ... */
-
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px)  {
     
 .footer-aria {
-    max-width: 1280px; 
+    max-width: 1279px; 
     padding-top: 40px;
-    padding-left: 100px;
+    padding-left: 32px;
     padding-bottom: 40px;
     display: flex;
     flex-direction: column;
@@ -112,13 +126,72 @@
     justify-content: space-between;
 }
 
-.footer-fone {
-    background-image: url(../img/footer/dt8.png);
+ .footer-fone {
+    top: 1px;
+    left: 594px;
+    right: 2px;
+    bottom: 2px;
+    width: 176px;
+    height: 371px;
+    background-position-x: right;
+ } 
+
+ .embroidery-culture {
+    font-size: 54px;
+    line-height: 1.18;
+    width: 521px;
+    height: 192px;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 25px;
+    margin-bottom: 138px;
+    width: auto;
+}
+
+}
+
+/* 1280px - 1440px */
+
+
+@media screen and (min-width: 1280px)   {
+    .footer-fone {
+        background-image: url(../img/footer/dt8.png);
+        }   
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 1280px),
+screen and (min-resolution: 2dppx) and (min-width: 1280px),
+screen and (min-device-pixel-ratio: 2) and (min-width: 1280px){
+    .footer-fone {
+    background-image: url(../img/footer/dt8@2x.png);
+    }   
+}
+
+@media screen and (min-width: 1280px) {
+    
+
+.footer-aria {
+    min-width: 1280px; 
+    padding-top: 40px;
+    padding-left: 100px;
+    padding-bottom: 40px;
+    }
+
+ .footer-fone {
     right: 0;
     top: 0;
     bottom: 0;
     left: 944px;
- }
+    width: 334px;
+    height: 367px;
+ } 
+
+
 
  .embroidery-culture {
     font-size: 64px;
@@ -128,12 +201,7 @@
 }
 
 .footer-list {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 25px;
-    margin-bottom: 175px;
-}
-
+    margin-bottom: 117px;
+    
+} 
 }
