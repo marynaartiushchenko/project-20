@@ -1,0 +1,120 @@
+.about {
+  padding-bottom: 50px;
+  margin-bottom: 30px;
+  background-image: url('../img/about_us/elements_m.png');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 250px 392px;
+}
+
+@media (min-resolution: 192dpi) {
+  .about {
+    background-image: url('../img/about_us/elements_m@2x.png');
+  }
+}
+
+@media (min-width: 768px) {
+  .about {
+    margin-bottom: 50px;
+    background-image: url('../img/about_us/elements_t.png');
+    background-size: 369px 431px;
+  }
+}
+
+@media (min-width: 768px) and (min-resolution: 192dpi) {
+  .about {
+    background-image: url('../img/about_us/elements_t@2x.png');
+  }
+}
+
+@media (min-width: 1280px) {
+  .about {
+    padding-bottom: 80px;
+    margin-bottom: 70px;
+
+    background-image: url('../img/about_us/elements_d.png');
+    background-size: 383px 483px;
+  }
+}
+
+@media (min-width: 1280px) and (min-resolution: 192dpi) {
+  .about {
+    background-image: url('../img/about_us/elements_d@2x.png');
+  }
+}
+
+@media (min-width: 1280px) {
+  .wrapper {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+  }
+}
+
+.about-box {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+@media (min-width: 768px) {
+  .about-box {
+    margin-bottom: 40px;
+  }
+}
+
+.about_us_title {
+  margin-bottom: 40px;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.37;
+  letter-spacing: -0.03em;
+}
+
+@media (min-width: 768px) {
+  .about_us_title {
+    font-size: 44px;
+  }
+}
+
+.about_us_des {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.04em;
+  color: rgba(252, 249, 249, 0.4);
+}
+
+@media (min-width: 768px) {
+  .about_us_des {
+    font-size: 16px;
+  }
+}
+
+.about_us_des:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.about_us_img {
+  width: 100%;
+  height: 499px;
+
+  border-radius: 4px;
+}
+
+@media (min-width: 768px) {
+  .about_us_img {
+    height: 545px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .about_us_img {
+    width: 594px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .about_us_img {
+    width: 709px;
+    height: 545px;
+  }
+}
