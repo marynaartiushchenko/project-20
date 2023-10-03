@@ -1,196 +1,187 @@
 .about-us {
-    padding-bottom: 80px;
-    position: relative;
+  padding-bottom: 80px;
+  position: relative;
 }
 
 @media screen and (min-width: 768px) {
-    .about-us {
-        padding-bottom: 100px;
-    }
+  .about-us {
+    padding-bottom: 100px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-    .about-us {
-        padding-bottom: 150px;
-    }
+  .about-us {
+    padding-bottom: 150px;
+  }
 }
 
 .about-us-conteiner {
-    margin-left: 0;
-    margin-right: 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 50px;
+  margin-left: 0;
+  margin-right: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
 }
 
 @media screen and (min-width: 768px) {
-    .about-us-conteiner {
-        gap: 40px;
-    }
+  .about-us-conteiner {
+    gap: 40px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-    .about-us-conteiner {
-        flex-wrap: nowrap;
-        gap: 50px;
-    }
+  .about-us-conteiner {
+    flex-wrap: nowrap;
+    gap: 50px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-    .about-us-box {
-        margin-top: auto;
-        margin-bottom: auto;
-    }
+  .about-us-box {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
 }
 
 .about-us-title {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding-bottom: 40px;
-    color: #fcf9f9;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-bottom: 40px;
+  color: #fcf9f9;
 
-    font-size: 32px;
-    font-weight: 500;
-    line-height: 1.38;
-    letter-spacing: -0.96px;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.38;
+  letter-spacing: -0.96px;
 }
 
 @media screen and (min-width: 768px) {
-    .about-us-title {
-        font-size: 44px;
-        line-height: 1.45;
-        letter-spacing: -1.32px;
-    }
+  .about-us-title {
+    font-size: 44px;
+    line-height: 1.45;
+    letter-spacing: -1.32px;
+  }
 }
 
 .about-us-text {
-    width: 335px;
-    color: rgba(252, 249, 249, 0.4);
-    font-size: 14px;
-    line-height: normal;
-    letter-spacing: -0.56px;
+  width: 335px;
+  color: rgba(252, 249, 249, 0.4);
+  font-size: 14px;
+  line-height: normal;
+  letter-spacing: -0.56px;
 }
 
 @media screen and (min-width: 768px) {
-    .about-us-text {
-        width: 704px;
-        font-size: 16px;
-        letter-spacing: -0.64px;
-    }
+  .about-us-text {
+    width: 704px;
+    font-size: 16px;
+    letter-spacing: -0.64px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-    .about-us-text {
-        width: 436px;
-    }
+  .about-us-text {
+    width: 436px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
-    .about-us-text {
-        width: 481px;
-    }
+  .about-us-text {
+    width: 481px;
+  }
 }
 
 .text {
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 }
-
 .about-us-pict {
-    border-radius: 4px;
+  border-radius: 4px;
 }
 
 .about-us-picture {
-    width: 335px;
-    height: 499px;
+  width: 335px;
+  height: 499px;
 }
 
 @media screen and (min-width: 768px) {
-    .about-us-picture {
-        width: 704px;
-        height: 545px;
-    }
+  .about-us-picture {
+    width: 704px;
+    height: 545px;
+  }
 }
-
 @media screen and (min-width: 1280px) {
-    .about-us-picture {
-        width: 594px;
-        height: 545px;
-    }
+  .about-us-picture {
+    width: 594px;
+    height: 545px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
-    .about-us-picture {
-        width: 709px;
-        height: 545px;
-    }
+  .about-us-picture {
+    width: 709px;
+    height: 545px;
+  }
 }
 
 .about-us-background {
-    right: 0;
-    bottom: 18px;
-    width: 230px;
-    height: 365px;
-    position: absolute;
-    background-image: url(../img/about-us/mobelements-min.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: 230px 365px;
+  right: 0;
+  bottom: 18px;
+  width: 230px;
+  height: 365px;
+  position: absolute;
+  background-image: url(../img/about-us/mobelements-min.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 230px 365px;
 }
 
-@media (-webkit-min-device-pixel-ratio: 2),
-(min-resolution: 192dpi) {
-    .about-us-background {
-        background-image: url('../img/about-us/mobelements@2x-min.png');
-    }
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .about-us-background {
+    background-image: url('../img/about-us/mobelements@2x-min.png');
+  }
 }
 
 @media screen and (min-width: 768px) {
+  .about-us-background {
+    background-image: url(../img/about-us/tabelements-min.png);
+    bottom: 50px;
+    width: 369px;
+    height: 484px;
+    background-size: 369px 484px;
+  }
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .about-us-background {
-        background-image: url(../img/about-us/tabelements-min.png);
-        bottom: 50px;
-        width: 369px;
-        height: 484px;
-        background-size: 369px 484px;
+      background-image: url('../img/about-us/tabelements@2x-min.png');
     }
-
-    @media (-webkit-min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi) {
-        .about-us-background {
-            background-image: url('../img/about-us/tabelements@2x-min.png');
-        }
-    }
+  }
 }
 
 @media screen and (min-width: 1280px) {
+  .about-us-background {
+    background-image: url(../img/about-us/dtelements-min.png);
+    bottom: 70px;
+    width: 385px;
+    height: 484px;
+    background-size: 385px 484px;
+  }
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .about-us-background {
-        background-image: url(../img/about-us/dtelements-min.png);
-        bottom: 70px;
-        width: 385px;
-        height: 484px;
-        background-size: 385px 484px;
+      background-image: url('../img/about-us/dtelements@2x-min.png');
     }
-
-    @media (-webkit-min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi) {
-        .about-us-background {
-            background-image: url('../img/about-us/dtelements@2x-min.png');
-        }
-    }
+  }
 }
 
 @media screen and (min-width: 1440px) {
+  .about-us-background {
+    background-image: url(../img/about-us/desktopelements-min.png);
+    width: 545px;
+    height: 484px;
+    background-size: 545px 484px;
+  }
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .about-us-background {
-        background-image: url(../img/about-us/desktopelements-min.png);
-        width: 545px;
-        height: 484px;
-        background-size: 545px 484px;
+      background-image: url('../img/about-us/desktopelements@2x-min.png');
     }
-
-    @media (-webkit-min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi) {
-        .about-us-background {
-            background-image: url('../img/about-us/desktopelements@2x-min.png');
-        }
-    }
+  }
 }
