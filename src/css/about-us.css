@@ -7,12 +7,14 @@
 @media screen and (min-width: 768px) {
   .about-us {
     padding-top: 100px;
+    max-width: 768px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .about-us {
     padding-top: 150px;
+    max-width: 1280px;
   }
 }
 
