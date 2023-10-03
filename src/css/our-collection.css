@@ -1,0 +1,93 @@
+.collection {
+  padding-top: 80px;
+  padding-bottom: 80px;
+
+  background-image: url(../img/our-collection-ornament-mobile.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-position-y: 378px;
+}
+
+.collection-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.collection-header {
+  color: #fcf9f9;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.38;
+  letter-spacing: -0.03em;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.collection-card-name {
+  color: #fcf9f9;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.collection-card-price {
+  color: rgba(252, 249, 249, 0.4);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.05em;
+}
+.collection-card {
+  padding-top: 18px;
+}
+.collection-image {
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .collection {
+    background-image: url(../img/our-collection-ornament-tablet-desktop.png);
+    background-position-y: 321px;
+  }
+
+  .collection {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .collection-header {
+    font-size: 44px;
+    line-height: 1.45;
+  }
+
+  .collection-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 20px;
+  }
+  .collection-items {
+    width: calc((100% - 20px) / 2);
+  }
+}
+
+@media screen and (min-width: 1288px) {
+  .collection {
+    background-position-y: 371px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    justify-items: stretch;
+  }
+
+  .collection-list {
+    row-gap: 40px;
+  }
+  .collection-items {
+    width: calc((100% - 40px) / 3);
+  }
+}
