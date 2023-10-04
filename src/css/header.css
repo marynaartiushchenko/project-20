@@ -167,8 +167,7 @@
 .mobile-tablet{
   background-image: url(/img/ornament-tablet-menu-window.png);
   max-width: 380px;
-  transform: translateX(300%);
-}
+ }
 }
 
 
