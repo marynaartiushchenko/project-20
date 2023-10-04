@@ -4,10 +4,14 @@
  .footer-section {
     border-top: 1px solid rgba(252, 249, 249, 0.10);
     background: #1C2225;
+    margin-left: auto;
+    margin-right: auto;
     background-image: url(../img/footer/mob.png);
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: bottom;
+    background-size: contain;
+    max-width: 375px;
     }
      
  .footer-aria {
@@ -28,7 +32,6 @@ screen and (min-resolution: 2dppx) and (max-width: 767px),
 screen and (min-device-pixel-ratio: 2) and (max-width:767px){
     .footer-section {
     background-image: url(../img/footer/mob@2x.png);
-    background-size: contain;
     }   
 } 
 
@@ -87,7 +90,7 @@ screen and (min-device-pixel-ratio: 2) and (max-width:767px){
         background-image: url(../img/footer/tab1.png);
         background-position-x: right;
         background-position-y: top;
-        background-size: contain;
+        max-width: 768px;
         }   
 }
 
@@ -151,8 +154,9 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1280px){
 }
 
 @media screen and (min-width: 1280px) {
-    
-
+.footer-section {
+    max-width: 1280px;    
+    }
 .footer-aria {
     min-width: 1280px; 
     padding-top: 40px;
