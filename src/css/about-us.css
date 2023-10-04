@@ -3,6 +3,8 @@
   padding-top: 80px;
   position: relative;
   display: flex;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (min-width: 768px) {
@@ -10,6 +12,8 @@
     display: flex;
     padding-top: 100px;
     max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -18,6 +22,8 @@
     display: flex;
     padding-top: 150px;
     max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
