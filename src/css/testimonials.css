@@ -95,9 +95,8 @@
     display: inline-flex;
     justify-content: center;
     gap: 40px;
-    padding-top: 100px;
-    padding-bottom: 100px;
   }
+
   .testimonials-titel {
     font-size: 44px;
     line-height: 1.45;
@@ -109,7 +108,11 @@
     width: 336px;
   }
   .testimonials-list-text {
+    color: rgba(252, 249, 249, 0.4);
+    text-align: center;
     font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
   }
 }
 
