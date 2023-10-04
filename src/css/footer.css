@@ -18,7 +18,7 @@
     padding-bottom: 292px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     justify-content: center;
     }
 
@@ -28,6 +28,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px),
 screen and (min-device-pixel-ratio: 2) and (max-width:767px){
     .footer-section {
     background-image: url(../img/footer/mob@2x.png);
+    background-size: contain;
     }   
 } 
 
@@ -86,6 +87,7 @@ screen and (min-device-pixel-ratio: 2) and (max-width:767px){
         background-image: url(../img/footer/tab1.png);
         background-position-x: right;
         background-position-y: top;
+        background-size: contain;
         }   
 }
 
@@ -144,6 +146,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1280px),
 screen and (min-device-pixel-ratio: 2) and (min-width: 1280px){
     .footer-section {
     background-image: url(../img/footer/dt@2x.png);
+    background-size: contain;
     }   
 }
 
