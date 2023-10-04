@@ -17,6 +17,10 @@
         border-radius: 4px;
     }
 
+    .hero-title-block {
+        margin-bottom: 40px;
+    }
+
     .hero-title {
         width: 335px;
         padding-bottom: 20px;
@@ -36,7 +40,6 @@
         display: inline-flex;
         padding: 14px 36px;
         margin-left: 70px;
-        margin-bottom: 40px;
         justify-content: center;
         align-items: center;
         gap: 10px;
@@ -76,6 +79,10 @@
         justify-content: space-between;
     }
 
+    .hero-title-block {
+        margin-bottom: 40px;
+    }
+
     .hero-title {
         width: 549px;
         padding-top: 26px;
@@ -96,7 +103,6 @@
         display: inline-flex;
         padding: 14px 39px;
         margin-left: 141px;
-        margin-bottom: 40px;
         justify-content: center;
         align-items: center;
         gap: 10px;
@@ -149,11 +155,6 @@
 
 
 @media screen and (min-width: 1280px) {
-    .container {
-        padding-left: 100px;
-        padding-right: 100px;
-    }
-
     .hero-title-girl-block {
         display: flex;
         flex-direction: row-reverse;
