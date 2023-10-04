@@ -7,12 +7,14 @@
 @media screen and (min-width: 768px) {
   .about-us {
     padding-top: 100px;
+    max-width: 768px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .about-us {
     padding-top: 150px;
+    max-width: 1280px;
   }
 }
 
@@ -129,7 +131,7 @@
 
 .about-us-background {
   right: 0;
-  bottom: 18px;
+  bottom: -62px;
   width: 230px;
   height: 365px;
   position: absolute;
@@ -149,7 +151,7 @@
 @media screen and (min-width: 768px) {
   .about-us-background {
     background-image: url(../img/about-us/tabelements-min.png);
-    bottom: 50px;
+    bottom: -50px;
     width: 369px;
     height: 484px;
     background-size: 369px 484px;
@@ -166,7 +168,7 @@
 @media screen and (min-width: 1280px) {
   .about-us-background {
     background-image: url(../img/about-us/dtelements-min.png);
-    bottom: 70px;
+    bottom: -80px;
     width: 385px;
     height: 484px;
     background-size: 385px 484px;
