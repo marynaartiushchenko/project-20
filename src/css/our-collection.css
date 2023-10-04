@@ -1,4 +1,5 @@
 .collection {
+  max-width: 375px;
   padding-top: 80px;
   padding-bottom: 80px;
 
@@ -6,6 +7,8 @@
   background-repeat: no-repeat;
   background-position: left;
   background-position-y: 378px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .collection-list {
@@ -51,6 +54,7 @@
 
 @media screen and (min-width: 768px) {
   .collection {
+    max-width: 768px;
     background-image: url(../img/our-collection-ornament-tablet-desktop.png);
     background-position-y: 321px;
   }
@@ -78,6 +82,7 @@
 
 @media screen and (min-width: 1288px) {
   .collection {
+    max-width: 1280px;
     background-position-y: 371px;
     padding-top: 150px;
     padding-bottom: 150px;
