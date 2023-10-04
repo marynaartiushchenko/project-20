@@ -71,7 +71,7 @@
 }
 @media screen and (max-width: 767px) {
     .your-order-background-image {
-            max-width: 375px;
+            min-width: 375px;
             height: 550px;
             margin-bottom: 80px;
             padding-left: 0;
@@ -126,6 +126,7 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
         width: 508px;
         font-size: 16px;
     }
+    
 
 }
 
@@ -148,9 +149,10 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
         }
     .your-order-img-wrapper {
         position: absolute;
-        right: 0px;
+        right: 32px;
         bottom: 80px;
     }
+        
 }
 @media screen and (min-resolution: 192dpi) and (min-width: 768px) and (max-width: 1279px),
 screen and (min-resolution: 2dppx) and (min-width: 768px) and (max-width: 1279px),
