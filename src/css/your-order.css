@@ -71,7 +71,7 @@
 }
 @media screen and (max-width: 767px) {
     .your-order-background-image {
-            min-width: 375px;
+            min-width: 100%;
             height: 550px;
             margin-bottom: 80px;
             padding-left: 0;
@@ -139,7 +139,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
 }
 @media screen and (min-width: 768px) and (max-width: 1279px){
     .your-order-background-image {
-            width: 768px;
+            width: 100%;
             height: 776px;
             margin-bottom: 100px;
             background-image: url("../img/your_order/green_vyshyvanka_tablet.jpg");
@@ -165,7 +165,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 12
 @media screen and (min-width: 1280px) {
     .your-order {
         min-height: 1566px;
-        width: 1436px;
+        
 
     }
     .your-order-wrapper {
@@ -181,7 +181,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 12
 }
 @media screen and (min-width: 1280px) and (max-width: 1439px) {
     .your-order-background-image {
-        width: 1282px;
+        width: 100%;
         height: 776px;
         margin-bottom: 150px;
         background-image: url("../img/your_order/green_vyshyvanka_desktop.jpg");
@@ -198,8 +198,11 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) and (max-width: 1
         }
 }
 @media screen and (min-width: 1440px) {
+    .your-order {
+        min-width: 1560px;
+    }
     .your-order-background-image {
-        width: 1440px;
+        width: 100%;
         height: 776px;
         margin-bottom: 150px;
         background-image: url("../img/your_order/green_vyshyvanka_desktop2.jpg");
@@ -207,6 +210,9 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) and (max-width: 1
         background-position: center;
         background-size: cover;
     } 
+    .your-order-form-wrapper {
+        width: 666px;
+    }
 
     .your-order-title {
         width: 666px;
