@@ -4,13 +4,7 @@
     }
 
     .hero {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        max-width: 375px;
         padding-top: 60px;
-        margin-left: auto;
-        margin-right: auto;
     }
 
     .hero-images-girl {
@@ -23,7 +17,7 @@
 
     .hero-title {
         width: 335px;
-        padding-bottom: 20px;
+        margin-bottom: 20px;
         color: #fcf9f9;
         font-size: 44px;
         font-weight: 400;
@@ -65,13 +59,7 @@
 
 @media screen and (min-width: 768px) {
     .hero {
-        display: flex;
-        flex-wrap: wrap;
-        max-width: 768px;
-        justify-content: center;
         padding-top: 80px;
-        margin-left: auto;
-        margin-right: auto;
     }
 
     .hero-container {
@@ -86,7 +74,7 @@
     .hero-title {
         width: 549px;
         padding-top: 26px;
-        padding-bottom: 20px;
+        margin-bottom: 20px;
         color: #fcf9f9;
         font-size: 54px;
         font-weight: 400;
@@ -162,7 +150,6 @@
     }
 
     .hero {
-        max-width: 1280px;
         padding-top: 100px;
     }
 
@@ -181,7 +168,7 @@
     .hero-title {
         width: 518px;
         padding-top: 94px;
-        padding-bottom: 40px;
+        margin-bottom: 40px;
         letter-spacing: -0.02em;
     }
 
