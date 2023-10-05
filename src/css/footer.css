@@ -11,7 +11,7 @@
     background-position-x: center;
     background-position-y: bottom;
     background-size: contain;
-    max-width: 375px;
+    /* max-width: 375px; */
     }
      
  .footer-aria {
@@ -90,7 +90,7 @@ screen and (min-device-pixel-ratio: 2) and (max-width:767px){
         background-image: url(../img/footer/tab1.png);
         background-position-x: right;
         background-position-y: top;
-        max-width: 768px;
+        
         }   
 }
 
@@ -106,7 +106,8 @@ screen and (min-device-pixel-ratio: 2) and (min-width:768px){
 @media screen and (min-width: 768px)  {
     
 .footer-aria {
-    max-width: 1279px; 
+    
+    max-width: 1279px;  
     padding-top: 40px;
     padding-left: 32px;
     padding-bottom: 40px;
@@ -154,9 +155,6 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1280px){
 }
 
 @media screen and (min-width: 1280px) {
-.footer-section {
-    max-width: 1280px;    
-    }
 .footer-aria {
     min-width: 1280px; 
     padding-top: 40px;
