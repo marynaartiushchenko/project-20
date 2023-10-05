@@ -80,7 +80,15 @@
     width: 336px;
   }
   .testimonials-list-text {
+    color: rgba(252, 249, 249, 0.4);
+    text-align: center;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
     width: 307px;
+    height: 175px;
     font-size: 16px;
   }
 }
@@ -95,9 +103,8 @@
   }
   .testimonials-list {
     gap: 26px;
-    justify-content: space-between;
   }
   .list-conteiner-border {
-    width: 396px;
+    width: 343px;
   }
 }
