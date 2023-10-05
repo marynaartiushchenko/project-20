@@ -67,20 +67,16 @@ screen and (min-device-pixel-ratio: 2) and (max-width:767px){
     width: 100%;
     text-align: start;
    
-   
 }
 
 .yellow-word {
     color: var(--white, #ECD979);
 }
 
-
-
 .footer-list-item:hover,
 .footer-list-item:focus {
     color:  var(--yellow, #ECD979);
 } 
-
 
 
 /* 768px - 1280px - ... */
@@ -90,7 +86,6 @@ screen and (min-device-pixel-ratio: 2) and (max-width:767px){
         background-image: url(../img/footer/tab1.png);
         background-position-x: right;
         background-position-y: top;
-        
         }   
 }
 
