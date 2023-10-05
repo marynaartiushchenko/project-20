@@ -1,6 +1,6 @@
 
 .your-order-title {
-    width: 335px;
+    width: 100%;
     color: #FCF9F9;
     font-family: Manrope;
     font-size: 32px;
@@ -14,7 +14,7 @@
     color: #ECD979;
 }
 .your-order-input {
-    width: 335px;
+    width: 100%;
     padding: 14px 16px;
     border-radius: 15px;
     border: 1px solid rgba(252, 249, 249, 0.10);
@@ -29,7 +29,7 @@
     margin-bottom: 20px;
 }
 .your-order-textarea {
-    width: 335px;
+    width: 100%;
     height: 196px;
     padding: 14px 16px;
     margin-bottom: 40px;
@@ -80,6 +80,7 @@
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
+            
     
         }
 
@@ -101,7 +102,7 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
 @media screen and (min-width: 768px) {
      .your-order {
         position: relative;
-        min-height: 2216px;
+        min-height: 2300px;
         background-image: url("../img/your-order-ornament.png");
         background-repeat: no-repeat;
         background-position: left bottom;
@@ -165,13 +166,14 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 12
 @media screen and (min-width: 1280px) {
     .your-order {
         min-height: 1566px;
-        
+                
 
     }
     .your-order-wrapper {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         gap: 50px;
+        
         
     }
 
@@ -189,6 +191,8 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 12
         background-position: center;
         background-size: cover;
         }
+
+    
 }
 @media screen and (min-resolution: 192dpi) and (min-width: 1280px) and (max-width: 1439px),
 screen and (min-resolution: 2dppx) and (min-width: 1280px) and (max-width: 1439px),
