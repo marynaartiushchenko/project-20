@@ -208,6 +208,8 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) and (max-width: 1
     .your-order-background-image {
         width: 1440px;
         height: 776px;
+        margin-right: auto;
+        margin-left: auto;
         margin-bottom: 150px;
         background-image: url("../img/your_order/green_vyshyvanka_desktop2.jpg");
         background-repeat: no-repeat;
