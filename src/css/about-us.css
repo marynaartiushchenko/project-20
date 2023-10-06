@@ -108,7 +108,6 @@
 
 .about-us-picture {
   width: 335px;
-  height: 499px;
 }
 
 @media screen and (min-width: 768px) {
@@ -144,8 +143,7 @@
   background-size: 230px 365px;
 }
 
-@media (-webkit-min-device-pixel-ratio: 2),
-(min-resolution: 192dpi) {
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .about-us-background {
     background-image: url('../img/about-us/mobelements@2x-min.png');
   }
@@ -160,8 +158,7 @@
     background-size: 369px 484px;
   }
 
-  @media (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi) {
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .about-us-background {
       background-image: url('../img/about-us/tabelements@2x-min.png');
     }
@@ -177,8 +174,7 @@
     background-size: 385px 484px;
   }
 
-  @media (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi) {
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .about-us-background {
       background-image: url('../img/about-us/dtelements@2x-min.png');
     }
@@ -193,8 +189,7 @@
     background-size: 545px 484px;
   }
 
-  @media (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi) {
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .about-us-background {
       background-image: url('../img/about-us/desktopelements@2x-min.png');
     }
